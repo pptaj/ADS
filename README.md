@@ -25,3 +25,18 @@ $ vim Dockerfile
 FROM python:3
 ADD Part1Latest.ipynb /
 CMD ["python", "./Part1Latest.ipynb"]
+
+taj@taj-pc MINGW64 /c/adsrepo/notebooks_docker (master)
+$ docker build -t ads .
+Sending build context to Docker daemon 8.192 kB
+Step 1/3 : FROM python:3
+ ---> 3984f3aafbc9
+Step 2/3 : ADD Part1Latest.ipynb /
+ ---> fdfd7e8f4342
+Removing intermediate container d6ab9a7a99cd
+Step 3/3 : CMD python ./Part1Latest.ipynb
+ ---> Running in a90c73f669a4
+ ---> 90c953ab3985
+Removing intermediate container a90c73f669a4
+Successfully built 90c953ab3985
+SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.
