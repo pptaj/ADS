@@ -1,6 +1,6 @@
 # ADS
 
-Part 2: Dockerize this pipeline 
+#Part 2: Dockerize this pipeline 
 taj@taj-pc MINGW64 /c/adsrepo/notebooks_docker (master)
 $ docker version
 Client:
