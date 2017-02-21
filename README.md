@@ -21,3 +21,7 @@ Server:
  
  taj@taj-pc MINGW64 /c/adsrepo/notebooks_docker (master)
 $ vim Dockerfile
+
+FROM python:3
+ADD Part1Latest.ipynb /
+CMD ["python", "./Part1Latest.ipynb"]
