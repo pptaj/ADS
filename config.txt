@@ -1,7 +1,4 @@
 #CIK NUMBER
-
 cik=51143
-
-accession_number=0000051143-133-000007
-
+accession_number=0000051143-13-000007
 aws_key=
