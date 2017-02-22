@@ -85,8 +85,7 @@ The push refers to a repository [docker.io/pptaj/ads]
 82ecd3afe058: Pushed
 
 #Commands to delete Docker images and containers
-#!/bin/bash
-# Delete all containers
+*Delete all containers
 docker rm $(docker ps -a -q)
-# Delete all images
+*Delete all images
 docker rmi $(docker images -q)
