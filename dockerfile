@@ -1,4 +1,4 @@
-# Copyright (c) Jupyter Development Team.
+opyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 FROM jupyter/minimal-notebook
 
@@ -30,7 +30,6 @@ RUN apt-get update && \
 
 						#ADD  https://github.com/pptaj/ADS C:/adsrepo/ADS/Part1Latest.ipynb
 
-						ADD part1.py part1.py
-						ADD config.txt config.txt
-						CMD ["python","part1.py"]
+						ADD Untitled.py Untitled.py
+						CMD ["python","Untitled.py"]
 
