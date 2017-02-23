@@ -32,5 +32,5 @@ RUN apt-get update && \
 
                                                 ADD part.py part.py
 						ADD config.txt config.txt
-						CMD ["python","part1.py"]
+						CMD ["python","part.py"]
 
