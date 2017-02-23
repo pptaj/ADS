@@ -89,3 +89,7 @@ The push refers to a repository [docker.io/pptaj/ads]
 docker rm $(docker ps -a -q)
 *Delete all images
 docker rmi $(docker images -q)
+
+#In case we want to use command line to pass values instead of config file
+ *taj@taj-pc MINGW64 /c/adsrepo/notebooks_docker (master)
+ *$ docker exec -it 8c96492454d0 python ques2.py 2003
