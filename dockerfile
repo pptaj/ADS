@@ -1,4 +1,4 @@
-# Copyright (c) Jupyter Development Team.
+opyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 FROM jupyter/minimal-notebook
 
@@ -24,13 +24,12 @@ RUN apt-get update && \
 			    'matplotlib=1.5*' \
 			        'scipy=0.17*' \
 				    'beautifulsoup4=4.5.*' \
-				       'lxml' \
-				          'html5lib' \
-				              'xlrd'  && \
-					        conda remove --quiet --yes --force qt pyqt && \
+				        'xlrd'  && \
+					    conda remove --quiet --yes --force qt pyqt && \
 					        conda clean -tipsy
 
-                                                ADD part.py part.py
-						ADD config.txt config.txt
-						CMD ["python","part.py"]
+						#ADD  https://github.com/pptaj/ADS C:/adsrepo/ADS/Part1Latest.ipynb
+
+						ADD Untitled.py Untitled.py
+						CMD ["python","Untitled.py"]
 
