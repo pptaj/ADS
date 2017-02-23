@@ -41,6 +41,7 @@ def create_csv_10Q(cik,document_accession_number, url):
                 #print(cols)
                 data.append([ele for ele in cols if ele])
             create_directory("Files")
+            print("created")
             create_directory("Files/" +cik)
             create_directory("Files/" + cik + "/" +document_accession_number)
             dir = "Files/" + cik + "/" + document_accession_number

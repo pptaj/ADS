@@ -24,8 +24,10 @@ RUN apt-get update && \
 			    'matplotlib=1.5*' \
 			        'scipy=0.17*' \
 				    'beautifulsoup4=4.5.*' \
-				        'xlrd'  && \
-					    conda remove --quiet --yes --force qt pyqt && \
+				       'lxml' \
+				          'html5lib' \
+				              'xlrd'  && \
+					        conda remove --quiet --yes --force qt pyqt && \
 					        conda clean -tipsy
 
 						#ADD  https://github.com/pptaj/ADS C:/adsrepo/ADS/Part1Latest.ipynb
