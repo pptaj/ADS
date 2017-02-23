@@ -30,10 +30,7 @@ RUN apt-get update && \
 					        conda remove --quiet --yes --force qt pyqt && \
 					        conda clean -tipsy
 
-						#ADD  https://github.com/pptaj/ADS C:/adsrepo/ADS/Part1Latest.ipynb
-
-						ADD part1.py part1.py
+                                                ADD part.py part.py
 						ADD config.txt config.txt
-						ADD /Files /Files
 						CMD ["python","part1.py"]
 
