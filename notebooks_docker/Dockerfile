@@ -12,7 +12,7 @@ RUN apt-get update && \
         rm -rf /var/lib/apt/lists/*
 
 	USER $NB_USER
-
+    
 	# Install Python 3 packages
 	# Remove pyqt and qt pulled in for matplotlib since we're only ever going to
 	# use notebook-friendly backends in these images
@@ -24,9 +24,9 @@ RUN apt-get update && \
 			    'matplotlib=1.5*' \
 			        'scipy=0.17*' \
 				    'beautifulsoup4=4.5.*' \
-				       'lxml' \
-				          'html5lib' \
-				              'xlrd'  && \
+				               'lxml' \
+				                    'html5lib' \
+				                         'xlrd'  && \
 					        conda remove --quiet --yes --force qt pyqt && \
 					        conda clean -tipsy
 
