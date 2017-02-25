@@ -1,4 +1,5 @@
 #CIK NUMBER
 cik=1652044
 accession_number=0001652044-17-000008
-aws_key=
+aws_access_key=AKIAJ3V6X3QFQOP6KLBA
+aws_secret_key=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
