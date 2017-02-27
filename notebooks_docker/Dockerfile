@@ -26,7 +26,8 @@ RUN apt-get update && \
 				    'beautifulsoup4=4.5.*' \
 				               'lxml' \
 				                    'html5lib' \
-				                         'xlrd'  && \
+						            'boto' \
+				                                   'xlrd'  && \
 					        conda remove --quiet --yes --force qt pyqt && \
 					        conda clean -tipsy
 
