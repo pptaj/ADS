@@ -1,4 +1,8 @@
 #ADS Assignment 1 Team 7
+* Mohit Mittal
+* Sneha Ravikumar
+* Taj Poovaiah
+
 #Find our images on the Docker hub
 * https://hub.docker.com/r/pptaj/ads/tags/
 
