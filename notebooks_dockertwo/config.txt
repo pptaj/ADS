@@ -1,4 +1,3 @@
 aws_access_key=AKIAIZI7QYND24RKBCOA
-
 aws_secret_key=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
 year= 2003
