@@ -3,6 +3,8 @@
 * Sneha Ravikumar
 * Taj Poovaiah
 
+#For a complete overview of our log file analysis, please checkout Storyboard.gif file above
+
 #Find our images on the Docker hub
 * https://hub.docker.com/r/pptaj/ads/tags/
 
