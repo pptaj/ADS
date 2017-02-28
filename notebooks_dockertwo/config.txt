@@ -1,8 +1,4 @@
-#CIK NUMBER
-cik=1652044
-accession_number=0001652044-17-000008
 aws_access_key=AKIAIZI7QYND24RKBCOA
 
 aws_secret_key=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
-
 year= 2003
